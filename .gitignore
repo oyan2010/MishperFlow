@@ -1,0 +1,44 @@
+# Byte-compiled / optimized
+__pycache__/
+*.py[cod]
+*$py.class
+
+# User recordings & audio dumps (STRICTLY PRIVATE)
+recordings/
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+
+# Local AI Models (Large binary models)
+models/
+*.bin
+*.onnx
+
+# Local Database & lock files
+*.db
+*.db-journal
+*.lock
+whisperflow.db
+whisperflow.lock
+
+# Logs & Debug outputs
+*.log
+app_log.txt
+second_log.txt
+
+# Local configuration overrides
+config.json
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

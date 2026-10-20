@@ -1,0 +1,5 @@
+PySide6>=6.4.0
+faster-whisper>=0.9.0
+pyaudio>=0.2.11
+keyboard>=0.13.5
+pyperclip>=1.8.2
